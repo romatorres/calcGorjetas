@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --primary: #FFFFFF;
+    --secondary: #1B98E0;
+    --tertiary: #006494;
+    --quaternary: #13293D;
+}
+
+body{
+    background-color: var(--tertiary);
+}
+.container{
+    font-family: 'Roboto', sans-serif;
+    color: #13293D;
+    width: 400px;
+    height: 580px;
+    margin: 100px auto;
+    background-color: var(--primary);
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 1px rgba(9, 10, 41, 0.28);
+}
+header h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: var(--quaternary);
+    padding: 34px 0;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.formSection{
+   margin: 46px;
+   margin-top: 10px;
+
+}
+.inputBill{
+    height: 38px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 6px;
+    color: var(--quaternary);
+}
+.formSelect{
+    height: 38px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 6px;
+    color: var(--quaternary);
+}
+.inputPeople{
+    height: 38px;
+    width: 50px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    padding-left: 6px;
+    color: var(--quaternary);
+}
+.formSubmit{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600px;
+    margin: 30px auto;
+    background-color: var(--tertiary);
+    width: 260px;
+    height: 50px;
+    color: var(--primary);
+    display: block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+.formSubmit:hover{
+    background-color: var(--secondary);  
+}
+#totalTip{
+    font-size: 18px;
+    text-align: center;
+}
